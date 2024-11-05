@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    max-width: 1260px;
+    margin: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 221, 221, 0.616);
+}
+.headerleft{
+    display: flex;
+    width: 30%;
+}
+.headerul{
+    margin-left: 30px;
+}
+.headerul h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerul h4 span i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.headermiddle{
+    width: 30%;
+    position: relative;
+}
+.headermiddle img{
+    width: 100%;
+
+}
+.headerright{
+    display: flex;
+    width: 30%;
+}
+.logo{
+    width: 54%;
+    position: absolute;
+    top: 17px;
+    left: 81px;
+}
+
+
+
+
+
+.Heroic{
+    background-color: rgba(245, 221, 221, 0.616);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+.heroicleft{
+    width: 40%;
+}
+.headtext h2{
+    font-size: 66px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.heroicleft p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.heroicleft button{
+    width: 186px;
+    height: 66px;
+    border-radius: 60px;
+    border: 1.5px solid #BC2517 ;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    color: #BF2819;
+}
+.heroicright{
+    width: 60%;
+    position: relative;
+}
+.heroicright img{
+    width: 100%;
+}
+.flyimages{
+    position: relative;
+    width: 50%;
+    bottom: 182px;
+    left: -120px;
+}
+.flyimages img{
+    width: 100%;
+}
+.search-container{
+    width: 717px;
+    height: 80px;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 53px;
+    left: -239px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 14px 0px 30px;
+}
+.search-container i{
+    font-size: 18px;
+    color: #6B6B6B;
+}
+.search-container input{
+    width: 70%;
+    border: none;
+    outline: none;
+}
+.search-container input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B6B6B;
+}
+.search-container button{
+    width: 144px;
+    height: 58px;
+    border-radius: 60px;
+    border: none;
+    background: linear-gradient(90deg, #F14E3E 0%, #B92315 100%);
+    font-size: 18px;
+    font-weight: 700;
+    color: #FEFEFF;
+    cursor: pointer;
+}
